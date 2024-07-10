@@ -44,6 +44,10 @@ body {
 }
 
 form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-inline-size: 800px;
   margin-inline: auto;
   margin-block-end: 30px;
@@ -56,8 +60,21 @@ form input {
   padding-block: 15px;
   font-size: clamp(14px, 1.8vw, 18px);
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e0dffe;
+}
+form button {
+  position: absolute;
+  top: 5;
+  right: 0;
+  background-color: #e0dffe;
+  border: none;
+  cursor: pointer;
+  margin-inline-end: 10px;
+}
+form button img {
+  inline-size: 40px;
+  block-size: 40px;
 }
 
 .wiki-error {

@@ -10,7 +10,7 @@ WikiSearch est un projet JavaScript qui permet de rechercher des articles sur Wi
 ## Utilisation
 
 1. Entrez un terme de recherche dans la barre de recherche.
-2. Appuyer sur la touche `entrée`
+2. Cliquez sur la loupe ou appuyer sur la touche `entrée`.
 3. Les résultats de la recherche s'afficheront sous forme de liste d'articles.
 4. Cliquez sur un article pour afficher son contenu complet.
 
