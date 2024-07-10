@@ -8,6 +8,24 @@
     <title>WikiSearch</title>
   </head>
   <body>
+    <img
+      src="./source/wikipedia.svg"
+      alt="Logo de wikipedia"
+      class="wiki-logo"
+      width="300"
+      height="300"
+    />
+    <h1>Recherche <span>WikiSearch</span></h1>
+    <form>
+      <input type="text" class="wiki-input" placeholder="Recherchez un terme" />
+    </form>
+    <p class="wiki-error"></p>
+    <div class="wiki-results"></div>
+    <div class="wiki-loader">
+      <span class="wiki-loader__dot"></span>
+      <span class="wiki-loader__dot"></span>
+      <span class="wiki-loader__dot"></span>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
